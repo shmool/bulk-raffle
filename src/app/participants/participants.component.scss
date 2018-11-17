@@ -1,0 +1,27 @@
+textarea {
+  display: block;
+  height: 300px;
+  width: 500px;
+}
+
+.remove {
+  color: red;
+  border: 1px red solid;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+
+
+}
+
+li .remove:hover {
+  display: inline-block;
+
+}
+
+.participants {
+  display: flex;
+  justify-content: space-around;
+}

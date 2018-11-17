@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
+## Add participants
+
+Go to `/participants` to add the participants list.
+Each participant should have email, name and surname, separated by tabs.
+The participants are separated by newline.
+Participants already exist in the system will not be added (unique by email).
+
+## Raffle
+
+Go to the home route to raffle. Winners are removed from the raffle list.
+
+## Persistence
+
+The lists of participants and winners are stored in local storage.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
